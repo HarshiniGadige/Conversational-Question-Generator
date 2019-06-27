@@ -1,10 +1,6 @@
 # COQG Baselines
 We provide baseline implementations for contextual(conversational) question generator using COQA dataset, a question generator based on the COQA dataset. We provide instructions to prepare the dataset for question generation. We use the [tensorflow-nmt](https://github.com/tensorflow/nmt "Tensorflow NMT") for our experiments. This document structure is inspired form the following [paper's](https://arxiv.org/abs/1808.07042 "COQA") baseline [repository](https://github.com/stanfordnlp/coqa-baselines "COQA Baselines"). We provide guidelines on how to run our pre--trained models as well as how to use our scripts to replicate our experiments. 
 
-This repository can be cloned using the following command:
-```bash
-git clone --recurse-submodules git@github.com:umesh-timalsina/COQG.git
-```
 We recommend creating a new virtual environment the project. 
 
 # Requirements
